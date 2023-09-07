@@ -285,6 +285,7 @@ dependencies = [
  "shuttle-shared-db",
  "sqlx",
  "tokio",
+ "tracing",
 ]
 
 [[package]]
