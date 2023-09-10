@@ -13,4 +13,4 @@ tokio = "1.26.0"
 tracing = "0.1"
 api-lib = { path = "../lib" }
 # shared
-shared = { path = "../../shared" }
+shared = { path = "../../shared", features = ["backend"] }
